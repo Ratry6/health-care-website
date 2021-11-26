@@ -1,0 +1,24 @@
+.home-banner{
+    margin-top : 10px;
+}
+.services-header h2{
+    margin-top: 40px;
+    color: rgb(115, 188, 197);
+    font-size: 45px;
+    font-weight: 700;
+}
+.services-header img{
+    width: 100%;
+    margin: 60px 0;
+
+}
+/* make responsive */
+    @media only screen and (max-width : 688px){
+            .services-part{
+                grid-template-columns: repeat(1,1fr);
+            }
+    }
+        
+    
+
+

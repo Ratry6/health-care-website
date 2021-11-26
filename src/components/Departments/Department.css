@@ -1,0 +1,17 @@
+.department-title{
+    padding: 20px;
+    color: rgb(22, 47, 94);
+    font-weight: 700;
+}
+.search-area{
+    padding: 30px 180px ;
+}
+.dept-specialists img{
+width: 400px;
+height: 200px;
+
+margin: 30px 150px 10px 150px;
+}
+.dept-specialists{
+    display: flex;
+}

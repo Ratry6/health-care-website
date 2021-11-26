@@ -1,0 +1,28 @@
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(137, 173, 101);
+}
+.btn-submit{
+    margin: 30px ;
+    background-color: rgb(170, 218, 170);
+    height: 30px;
+    width: 80px;
+    border: 1px solid rgb(163, 155, 155);
+    border-radius: 5px;
+}
+.btn-regular{
+    margin: 20px;
+    background-color: rgb(170, 218, 170);
+    height: 40px;
+    width: 150px;
+    border: 1px solid rgb(163, 155, 155);
+    border-radius: 5px;
+}

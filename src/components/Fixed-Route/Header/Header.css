@@ -1,0 +1,52 @@
+.navbar{
+    background-color: rgb(207, 243, 214);
+    width: 100%;
+    
+}
+.header-part{
+    
+    padding: 20px 16px;
+}
+
+.header-title h2{
+    color: rgb(47, 160, 62);
+    font-size: 30px;
+}
+.link{
+    text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+    color: rgb(19, 92, 35);
+    padding: 10px;
+    margin-right: 80px;
+    
+    
+}
+.link:hover{
+    color: rgb(97, 209, 82);
+    
+}
+.links{
+    margin-bottom: 5px;
+}
+
+.logout-btn{
+    width: 80px;
+    height: 40px;
+    color: rgb(4, 36, 4);
+    font-weight: 600;
+    background-color: rgb(161, 223, 179);
+    border-radius: 5px;
+    border: 1px solid rgb(162, 189, 162);
+    margin-top: 10px;
+}
+
+/* make responsive */
+@media only screen and (max-width : 688px){
+    .header-part{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+    
