@@ -9,7 +9,9 @@ const DetailsOnClick = () => {
 .then(res =>res.json())
 .then( data => setDetails(data))
     },[]);
-    const item= details?.find(pd=>pd.key == id);
+    const item= details.find(pd=>pd.key == id);
+   
+
     return (
         <div>
             <h1>    Name : {item?.name}</h1>
